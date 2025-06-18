@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.igorfragadev</groupId>
-    <artifactId>spring-ai-rag</artifactId>
+    <artifactId>spring-ai-rag-expert</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-ai-rag</name>
-    <description>spring-ai-rag</description>
+    <name>spring-ai-rag-expert</name>
+    <description>spring-ai-rag-expert</description>
     <url/>
     <licenses>
         <license/>
@@ -41,7 +41,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-vector-store</artifactId>
+            <artifactId>spring-ai-starter-vector-store-milvus</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.ai</groupId>
